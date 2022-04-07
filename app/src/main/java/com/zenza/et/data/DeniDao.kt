@@ -16,5 +16,5 @@ interface DeniDao {
     suspend fun getDeniById(id: Int): Deni?
 
     @Query("SELECT * FROM deni")
-    fun getTodo(): Flow<List<Deni>>
+    fun getDeni(): Flow<List<Deni>>
 }

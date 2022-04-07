@@ -10,5 +10,5 @@ interface DeniRepository {
 
     suspend fun getDeniById(id: Int): Deni?
 
-    fun getTodo(): Flow<List<Deni>>
+    fun getDeni(): Flow<List<Deni>>
 }
